@@ -29,12 +29,5 @@ namespace EersteProjectGitHub
         {
             lblHelloWorld.Content = "Hello World";
         }
-
-        int iCount = 0;
-        private void btnCounter_Click(object sender, RoutedEventArgs e)
-        {
-            iCount++;
-            lblCounter.Content = iCount.ToString();
-        }
     }
 }
